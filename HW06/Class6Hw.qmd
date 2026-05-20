@@ -1,0 +1,42 @@
+---
+title: "HW Class 6 (R functions)"
+author: "Hailey Phan (PID: A19113445)"
+format: pdf
+---
+
+```{r}
+library(bio3d)
+```
+
+```{r}
+# reads PDB file, extracts CA atoms from selected chain, gets B-factors, and plots them
+analyze_protein <- function(pdb_id, chain_id = "A") {
+  
+  # read PDB structure from database
+  pdb <- read.pdb(pdb_id)
+  
+  # keep only CA atoms from specified chain
+  pdb_chain <- trim.pdb(pdb, chain = chain_id, elety = "CA")
+  
+  # extract B-factor values
+  b_factors <- pdb_chain$atom$b
+  
+  # plot B-factors
+  plotb3(b_factors, sse = pdb_chain, typ = "l",
+         ylab = "B-factor",
+         main = paste("B-factor Plot for", pdb_id))
+  
+  # return B-factor vector
+  return(b_factors)
+}
+```
+
+```{r}
+analyze_protein("4AKE")
+```
+
+```{r}
+analyze_protein("1AKE")
+analyze_protein("1E4Y")
+```
+> The function takes in a PDB ID and an optional chain ID as inputs. It loads the protein structure, keeps only the alpha carbon atoms for the chosen chain, pulls out the B-factor values, and then makes a plot of them. It returns both the plot and the B-factor values as a numeric vector. The code is efficient since the same steps are not repeated for each protein, and everything is handled in one function. It is also easy to follow because the variable names make sense and the steps are in a clear order. When tested with valid PDB IDs, the function runs without issues and gives the expected results.

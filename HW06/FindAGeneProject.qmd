@@ -1,0 +1,11 @@
+---
+title: "Find a gene project"
+author: "Hailey Phan, h9phan@ucsd.edu, PID: A19113445"
+format: html
+---
+
+> **Q1.** The protein chosen for this project is kinesin family member 11 (KIF11) from Homo sapiens. The protein accession number is NP_004514.2. KIF11 is a motor protein in the kinesin-like protein family and is involved in spindle dynamics during mitosis, including chromosome positioning, centrosome separation, and formation of the bipolar spindle.
+
+>**Q2.** A tblastn search was performed using the human KIF11 protein sequence (NP_004514.2) as the query against the core_nt nucleotide database. No organism limits were applied. One homologous sequence identified was XM_059899790.1, a predicted Balaenoptera ricei kinesin family member 11 mRNA. The alignment showed a score of 1886 bits, an E-value of 0.0, and 939/1056 identities (89%), indicating a strong homologous match to the original KIF11 protein sequence.
+
+>**Q3.** 
