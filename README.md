@@ -9,9 +9,9 @@ My classwork from [BIMM143 at UC San Diego Spring 2026](https://bioboot.github.i
 
 Class 4: [Introduction to R](Class04/class04.html)
 
-Class 5: [Data viz with ggplot2](Class05/class05.html)
+Class 5: [Data viz with ggplot2](class05/class05.html)
 
-Class 6: [R Functions](Class06/class06.html)
+Class 6: [R Functions](class06/class06.html)
 
 Class 7: [Machine learning for Bioinformatics](Class07/class07.html)
 
@@ -19,11 +19,11 @@ Class 8: [Unsupervised learning mini-project](Class08/class08.html)
 
 Class 9: [Candy Mini-project](Class09/lab09.html)
 
-Class 10: [Structural Bioinformatics pt.1](Class10/lab10.html)
+Class 10: [Structural Bioinformatics pt.1](class10/lab10.html)
 
 Class 11: [Structural Bioinformatics (pt. 2 Alphafold](Class11/lab11.html)
 
-Class 12: [Pt.1 (RNASeq Galaxy)](Class12/hw12.html)
+Class 12: [Pt.1 (RNASeq Galaxy)](class12/hw12.html)
 
 Class 13: [(DESeq lab)](Class13/lab13.qmd)
 
