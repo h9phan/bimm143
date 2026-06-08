@@ -13,9 +13,9 @@ Class 5: [Data viz with ggplot2](class05/class05.html)
 
 Class 6: [R Functions](class06/class06.html)
 
-Class 7: [Machine learning for Bioinformatics](Class07/class07.html)
+Class 7: [Machine learning for Bioinformatics](Class07/Class07.html)
 
-Class 8: [Unsupervised learning mini-project](Class08/class08.html)
+Class 8: [Unsupervised learning mini-project](Class08/Class08.html)
 
 Class 9: [Candy Mini-project](Class09/lab09.html)
 
