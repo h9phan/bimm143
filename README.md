@@ -27,7 +27,7 @@ Class 12: [Pt.1 (RNASeq Galaxy)](hw12.html)
 
 Class 13: [(DESeq lab)](lab13.qmd)
 
-Class 14:[DESeq2 mini project](lab14.qmd)
+Class 14: [DESeq2 mini project](lab14.qmd)
 
 Class 16: [(Unix Basics)](HW16.pdf)
 
